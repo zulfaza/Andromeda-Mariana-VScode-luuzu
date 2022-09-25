@@ -1,0 +1,63 @@
+{
+  "name": "andromeda-mariana",
+  "displayName": "Andromeda Mariana",
+  "description": "Andromeda theme with the Mariana color syntax highlight",
+  "version": "0.0.1",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#23262E",
+    "theme": "dark"
+  },
+  "license": "MIT",
+  "publisher": "myaghobi",
+  "author": "Mohammad Yaghobi",
+  "bugs": {
+    "url": "https://github.com/myaghobi/Andromeda-Mariana-VSCode/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/myaghobi/Andromeda-Mariana-VSCode"
+  },
+  "engines": {
+    "vscode": "^1.14.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "Andromeda",
+    "Mariana",
+    "Sublime",
+    "SublimeText",
+    "Theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Andromeda Mariana",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Andromeda-mariana-color-theme.json"
+      },
+      {
+        "label": "Andromeda Mariana - Bordered",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Andromeda-mariana-color-theme-bordered.json"
+      },
+      {
+        "label": "Andromeda Mariana - Italic Bordered",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Andromeda-mariana-italic-color-theme-bordered.json"
+      },
+      {
+        "label": "Andromeda Mariana - Italic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Andromeda-mariana-italic-color-theme.json"
+      },
+      {
+        "label": "Andromeda Mariana - Colorizer",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Andromeda-mariana-colorizer.json"
+      }
+    ]
+  }
+}
