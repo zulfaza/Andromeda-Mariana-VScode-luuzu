@@ -1,21 +1,24 @@
 {
-  "name": "andromeda-mariana",
-  "displayName": "Andromeda Mariana",
+  "name": "andromeda-mariana-vscode",
+  "displayName": "Andromeda Mariana.",
   "description": "Andromeda theme with the Mariana color syntax highlight",
-  "version": "0.0.1",
+  "version": "1.8.0",
   "icon": "images/icon.png",
   "galleryBanner": {
     "color": "#23262E",
     "theme": "dark"
   },
   "license": "MIT",
-  "publisher": "myaghobi",
-  "author": "Mohammad Yaghobi",
-  "bugs": {
-    "url": "https://github.com/myaghobi/Andromeda-Mariana-VSCode/issues"
+  "publisher": "myaaghubi",
+  "author": {
+      "name": "Mohammad Yaaghubi",
+      "url": "https://github.com/myaaghubi"
   },
   "repository": {
-    "url": "https://github.com/myaghobi/Andromeda-Mariana-VSCode"
+    "url": "https://github.com/myaaghubi/Andromeda-Mariana-VSCode"
+  },
+  "bugs": {
+    "url": "https://github.com/myaaghubi/Andromeda-Mariana-VSCode/issues"
   },
   "engines": {
     "vscode": "^1.14.0"
@@ -26,7 +29,6 @@
   "keywords": [
     "Andromeda",
     "Mariana",
-    "Sublime",
     "SublimeText",
     "Theme"
   ],
