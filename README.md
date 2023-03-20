@@ -1,17 +1,14 @@
 
 <div align="center">
 
-![andromeda-logotype](images/main.png)
+![andromeda-logotype](images/icon.png)
 
 # Andromeda Mariana for VSCode
   
 [![release](https://img.shields.io/github/release/myaaghubi/Andromeda-Mariana-VSCode.svg?style=for-the-badge&logo=github&logoColor=white&colorA=2b303b&colorB=00e8c6)](https://github.com/myaaghubi/Andromeda-Mariana-VSCode/releases/latest)
-[![vscode](https://img.shields.io/badge/VS_Code-v1.26+-373277.svg?style=for-the-badge&logo=microsoft&logoColor=white&colorA=2b303b&colorB=7cb7ff)](https://code.visualstudio.com/updates/v1_26)
 [![rating](https://img.shields.io/visual-studio-marketplace/stars/myaaghubi.andromeda-mariana-vscode?style=for-the-badge&logo=reverbnation&logoColor=white&colorA=2b303b&colorB=FFE66D)](https://marketplace.visualstudio.com/items?itemName=myaaghubi.andromeda-mariana-vscode)
 
 </div>
-
-![andromeda-mariana-theme-options](images/theme-options.png)
 
 **Andromeda** `1.8.0` theme with the **Mariana** scheme(color syntax highlight) for those who like to have the Mariana scheme just like Sublime Text.
 
@@ -25,6 +22,11 @@
 4. Click **Reload** to reload your editor.
 5. Code/File ＞ Preferences ＞ Color Theme ＞ **Andromeda Mariana**.
 6. 🌟 Enjoy and [Rate five-stars](https://marketplace.visualstudio.com/items?itemName=myaaghubi.andromeda-mariana-vscode&ssr=false#review-details).
+
+
+![andromeda-mariana-theme-options](images/andromeda-mariana.png)
+
+
 ## License
 
 [MIT](https://github.com/release/myaaghubi/Andromeda-Mariana-VSCode/blob/master/LICENSE.md)

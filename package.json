@@ -2,7 +2,7 @@
   "name": "andromeda-mariana-vscode",
   "displayName": "Andromeda Mariana",
   "description": "Andromeda theme with the Mariana color syntax highlight",
-  "version": "1.8.1",
+  "version": "1.8.2",
   "icon": "images/icon.png",
   "galleryBanner": {
     "color": "#23262E",
@@ -32,6 +32,10 @@
     "SublimeText",
     "Theme"
   ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
   "contributes": {
     "themes": [
       {
@@ -60,5 +64,25 @@
         "path": "./themes/Andromeda-mariana-colorizer.json"
       }
     ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.14.0",
+    "@types/glob": "^8.1.0",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "16.x",
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/parser": "^5.53.0",
+    "eslint": "^8.34.0",
+    "glob": "^8.1.0",
+    "mocha": "^10.2.0",
+    "typescript": "^4.9.5",
+    "@vscode/test-electron": "^2.2.3"
   }
 }
